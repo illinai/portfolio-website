@@ -5,17 +5,17 @@ function Projects() {
     {
       id: 1,
       title: 'Project One',
-      description: 'A full-stack web application built with React and Node.js.',
-      tech: ['React', 'Node.js', 'MongoDB'],
-      github: 'https://github.com/yourusername/project1',
-      demo: 'https://project1-demo.com'
+      description: 'Project one filler description goes here.',
+      tech: ['tech1', 'tech2', 'tech3'],
+      github: 'project1-github-link',
+      demo: null
     },
     {
       id: 2,
       title: 'Project Two',
-      description: 'An e-commerce platform with user authentication.',
-      tech: ['React', 'Firebase', 'CSS'],
-      github: 'https://github.com/yourusername/project2',
+      description: 'Project two filler description goes here.',
+      tech: ['tech1', 'tech2', 'tech3'],
+      github: 'project2-github-link',
       demo: null
     }
   ];

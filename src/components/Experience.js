@@ -4,13 +4,13 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      title: 'Software Engineering Intern',
-      company: 'Tech Company Inc.',
-      period: 'June 2024 - August 2024',
+      title: 'Filler Title 1',
+      company: 'Filler Company 1',
+      period: 'Filler date - Filler date',
       responsibilities: [
-        'Developed web applications using React and Node.js',
-        'Collaborated with teams to deliver features',
-        'Participated in code reviews'
+        'Filler responsibility 1',
+        'Filler responsibility 2',
+        'Filler responsibility 3'
       ]
     }
   ];

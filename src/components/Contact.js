@@ -8,11 +8,11 @@ function Contact() {
         <div className="contact-content">
           <div className="contact-info">
             <h3>Email</h3>
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <a href="mailto:illina.code@gmail.com">illina.code@gmail.com</a>
           </div>
           <div className="social-links">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/illinai" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/illina-i/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>
