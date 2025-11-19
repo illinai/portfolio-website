@@ -4,19 +4,19 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Project One',
-      description: 'Project one filler description goes here.',
-      tech: ['tech1', 'tech2', 'tech3'],
-      github: 'project1-github-link',
-      demo: null
+      title: 'Pac-man Ghost Hunter',
+      description: 'This game inspired by the classic Pac-Man game, but adds a twist mechanic of allowing the player to shoot enemies.',
+      tech: ['Unity', 'C#', 'Game Development'],
+      github: 'https://github.com/illinai/PacManGhostHunter?tab=readme-ov-file',
+      demo: 'https://muesli-joy.itch.io/pac-man-ghost-hunter'
     },
     {
       id: 2,
-      title: 'Project Two',
-      description: 'Project two filler description goes here.',
-      tech: ['tech1', 'tech2', 'tech3'],
-      github: 'project2-github-link',
-      demo: null
+      title: 'E-commerce Store',
+      description: 'The project is a fully functional e-commerce web platform for handmade goods',
+      tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+      github: 'https://github.com/illinai/E-Commerce_Store',
+      demo: 'https://cosc360.ok.ubc.ca/smann06/New_E-Commerce_Store/main/public_home.php'
     }
   ];
 

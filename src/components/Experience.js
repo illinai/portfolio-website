@@ -4,9 +4,9 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      title: 'Filler Title 1',
-      company: 'Filler Company 1',
-      period: 'Filler date - Filler date',
+      title: 'Frontend Developer Intern',
+      company: 'myClusters',
+      period: 'October 2025 - Present',
       responsibilities: [
         'Filler responsibility 1',
         'Filler responsibility 2',

@@ -21,8 +21,8 @@ function About() {
                 <div className="about-content">
                     <div className="about-text">
                         <p>
-                            Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler 
-                            Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler 
+                            Hello! I'm Illina, a passionate Computer Science student with a keen interest in software development and web technologies. 
+                            I love creating interactive and user-friendly applications that solve real-world problems. 
                         </p>
                     </div>
                     <div className="skills-section">
