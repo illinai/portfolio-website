@@ -365,3 +365,56 @@ section {
   }
 }
 
+/* Dark Mode */
+.dark-mode {
+  background: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+  background: #0d1117;
+}
+
+.dark-mode .about,
+.dark-mode .experience {
+  background: #161b22;
+}
+
+.dark-mode .projects,
+.dark-mode .contact {
+  background: #1a1a1a;
+}
+
+.dark-mode .section-title,
+.dark-mode h3,
+.dark-mode .experience-item h3,
+.dark-mode .project-card h3 {
+  color: #e0e0e0;
+}
+
+.dark-mode .skill-item,
+.dark-mode .project-card,
+.dark-mode .experience-item {
+  background: #21262d;
+  color: #e0e0e0;
+}
+
+.dark-mode .project-card p,
+.dark-mode .experience-item li,
+.dark-mode .about-text p {
+  color: #c9d1d9;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: transform 0.3s;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.2);
+}
+
