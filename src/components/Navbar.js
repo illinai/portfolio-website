@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar(){
+function Navbar({darkMode, toggleDarkMode}){
     return(
         <nav className="navbar">
             <div className="nav-container">
@@ -15,6 +15,11 @@ function Navbar(){
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+
+                <button onClick={toggleDarkMode} className="theme-toggle">
+                    {darkMode ? '☀️' : '🌙'}
+                </button>
+
             </div>
         </nav>
     );
