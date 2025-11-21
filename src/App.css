@@ -253,6 +253,44 @@ section {
   text-decoration: underline;
 }
 
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.filter-buttons button {
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #ea62b8;
+  background: white;
+  color: #ea62b8;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.filter-buttons button:hover {
+  background: #e736a6;
+  color: white;
+}
+
+.filter-buttons button.active {
+  background: #ea84c5;
+  color: white;
+}
+
+.dark-mode .filter-buttons button {
+  background: #21262d;
+  color: #ea62b8;
+}
+
+.dark-mode .filter-buttons button.active {
+  background: #ea84c5;
+  color: white;
+}
+
 /* Experience */
 .experience {
   background: #f8f9fa;
