@@ -11,10 +11,19 @@ function Projects() {
       tech: ['Unity', 'C#', 'Game Development'],
       category: 'Game Dev',
       github: 'https://github.com/illinai/PacManGhostHunter?tab=readme-ov-file',
-      demo: 'https://muesli-joy.itch.io/pac-man-ghost-hunter'
+      demo: null,
     },
     {
       id: 2,
+      title: 'React Hooks Showcase',
+      description: 'This is a web application that demonstrates the use of the most commonly used React Hooks.',
+      tech: ['React', 'JavaScript', 'CSS', 'Next.js'],
+      category: 'Web Dev',
+      github: 'https://github.com/illinai/react-hooks-showcase.git',
+      demo: null,
+    },
+    {
+      id: 3,
       title: 'E-commerce Store',
       description: 'The project is a fully functional e-commerce web platform for handmade goods',
       tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
@@ -23,13 +32,22 @@ function Projects() {
       demo: 'https://cosc360.ok.ubc.ca/smann06/New_E-Commerce_Store/main/public_home.php'
     },
     {
-      id: 3,
+      id: 4,
       title: 'RemindMe - Android Task Manager',
       description: 'A simple and intuitive task management app for Android deviced.',
       tech: ['Java', 'Android Studio', 'SQLite'],
       category: 'App Dev',
       github: 'https://github.com/illinai/RemindMe-App',
       demo: null, 
+    },
+    {
+      id: 5,
+      title: 'Recipe Archive',
+      description: 'Comming soon: An AI powered web application that allows users to browse, search, and save their favorite recipes.',
+      tech: ['React', 'TypeScript', 'CSS', 'Next.js'],
+      category: 'Web Dev',
+      github: 'https://github.com/illinai/recipe-archive.git',
+      demo: null,
     }
   ];
 

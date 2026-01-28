@@ -6,12 +6,18 @@ function About() {
         "C#",
         "Unity",
         "JavaScript",
+        "TypeScript",
+        "PHP",
         "React",
         "Python",
+        "Django",
         "HTML",
         "CSS",
         "Git",
         "SQL",
+        "MySQL",
+        "Next.js",
+        "Node.js"
     ];
 
     return (
@@ -22,14 +28,14 @@ function About() {
                     <div className="about-text">
                         <p>
                             Hello! I'm Illina, a passionate Computer Science student with a keen interest in software development and web technologies. 
-                            I love creating interactive and user-friendly applications that solve real-world problems. 
+                            I love creating interactive and user-friendly applications that solve real-world problems.
                         </p>
                     </div>
                     <div className="skills-section">
                         <h3>Technical Skills</h3>
                         <div className="skills-grid">
                             {skills.map((skill, index) => (
-                                <div key={index} className="skill-item">{skill}</div>                      
+                                <div key={index} className="skill-item">{skill}</div>
                                 ))}
                         </div>
                     </div>
